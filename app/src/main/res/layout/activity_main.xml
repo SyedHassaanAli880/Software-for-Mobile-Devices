@@ -86,6 +86,30 @@
                  />
 
         </TableRow>
+        <TableRow
+            android:id="@+id/tableRow8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/button23"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="*"
+            android:minHeight="70dip"
+            android:onClick="goOperator"
+            android:text="*" />
+
+        <Button
+            android:id="@+id/button24"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_span="2"
+            android:contentDescription="%"
+            android:minHeight="70dip"
+            android:onClick="goOperator"
+            android:text="%" />
+        </TableRow>
 
         <TableRow
             android:id="@+id/tableRow4"
@@ -194,7 +218,17 @@
                 android:onClick="goOperand"
                 android:text="3" />
 
-
+            <Button
+                android:id="@+id/Button25"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_span="4"
+                android:background="#26538D"
+                android:contentDescription="0"
+                android:minHeight="70dip"
+                android:onClick="goCompute"
+                android:text="0"
+                />
         </TableRow>
 
         <!-- Row 5 -->
@@ -202,6 +236,7 @@
             android:id="@+id/tableRow7"
             android:layout_height="wrap_content"
             android:layout_width="wrap_content">
+
             <Button
                 android:id="@+id/Button18"
                 android:layout_width="wrap_content"
